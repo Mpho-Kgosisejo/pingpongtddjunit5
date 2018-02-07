@@ -11,9 +11,6 @@ public class RomanConverter {
         Map<Character, Integer> roman = new HashMap();
 
         s = s.toUpperCase();
-        //if (pat.matcher(s).find()){
-          //  throw new RuntimeException("Invalid input.");
-        //}
         roman.put('I', 1);
         roman.put('V', 5);
         roman.put('X', 10);
